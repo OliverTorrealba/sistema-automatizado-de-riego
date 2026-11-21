@@ -1,10 +1,10 @@
-# 🌱 Sistema de Riego Automatizado con Arduino
+======= Sistema de Riego Automatizado con Arduino
 
 Proyecto embebido de monitoreo y control automatizado de irrigación basado en niveles de humedad de suelo, desarrollado como demostración técnica para exposición académica.
 
 ---
 
-## 📋 Resumen del Proyecto
+======= Resumen del Proyecto
 
 Este prototipo resuelve la necesidad de optimizar el consumo de agua y automatizar el cuidado de cultivos o plantas domésticas. Utiliza un microcontrolador **Arduino Uno** que muestrea continuamente la resistencia del suelo a través de un sensor higrómetro. Al detectar niveles de sequedad por debajo de un umbral preestablecido, activa una microbomba sumergible mediante un módulo de relé, reportando el estado del sistema y las lecturas en tiempo real sobre una pantalla LCD 16x2 comunicada por protocolo I2C.
 
@@ -17,7 +17,7 @@ Este prototipo resuelve la necesidad de optimizar el consumo de agua y automatiz
 
 ---
 
-## 🛠️ Componentes y Materiales
+======= Componentes y Materiales
 
 | Componente | Especificación | Rol en el sistema |
 | :--- | :--- | :--- |
@@ -31,7 +31,7 @@ Este prototipo resuelve la necesidad de optimizar el consumo de agua y automatiz
 
 ---
 
-## 🔌 Diagrama de Conexiones
+======= Diagrama de Conexiones
 
 ### Tabla de Pines
 
@@ -69,7 +69,7 @@ flowchart TD
 
 ---
 
-## 🧠 Lógica de Funcionamiento
+======= Lógica de Funcionamiento
 
 El firmware implementa un bucle de control reactivo:
 
@@ -103,7 +103,7 @@ flowchart TD
 
 ---
 
-## 💻 Requisitos y Puesta en Marcha
+======= Requisitos y Puesta en Marcha
 
 1. **Entorno de desarrollo:** Instalar [Arduino IDE](https://www.arduino.cc/en/software) (versión 2.0 o superior recomendada).
 2. **Librería externa requerida:**
@@ -118,7 +118,7 @@ flowchart TD
 
 ---
 
-## 🚀 Lecciones Técnicas y Posibles Mejoras (Roadmap)
+======= Lecciones Técnicas y Posibles Mejoras (Roadmap)
 
 Como siguiente iteración para llevar este prototipo a un nivel industrial o de producto IoT:
 
@@ -133,4 +133,5 @@ Como siguiente iteración para llevar este prototipo a un nivel industrial o de 
 
 * **Oliver Torrealba**
 * GitHub: [@OliverTorrealba](https://github.com/OliverTorrealba)
+* Repositorio: [sistema-automatizado-de-riego](https://github.com/OliverTorrealba/sistema-automatizado-de-riego)
 * Proyecto desarrollado para exposición académica en el área de sistemas embebidos, automatización y electrónica con Arduino.
